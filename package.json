@@ -1,5 +1,5 @@
 {
-  "name": "tiny-agent",
+  "name": "tiny-agent-local-llm-demo",
   "version": "1.0.0",
   "description": "Tiny-Agent: a minimal agentic AI loop for learning — supports Ollama (local) and Anthropic (cloud) backends",
   "type": "module",

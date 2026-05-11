@@ -1,0 +1,18 @@
+{
+  "name": "tiny-agent",
+  "version": "1.0.0",
+  "description": "Tiny-Agent: a minimal agentic AI loop for learning — supports Ollama (local) and Anthropic (cloud) backends",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/agent.ts",
+    "local": "PROVIDER=ollama npx tsx src/agent.ts",
+    "cloud": "PROVIDER=anthropic npx tsx src/agent.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

@@ -36,6 +36,9 @@ ollama pull qwen2.5-coder:7b
 
 # Or try a bigger model for better tool calling
 ollama pull qwen2.5-coder:14b
+
+# Or just use a newer version
+ollama pull qwen3-coder:latest
 ```
 
 ### Custom Model
@@ -66,13 +69,13 @@ src/
 
 ## Demo Strategy: 3 Layers of Comparison
 
-The demo uses THREE tools to tell the story — from "I built this" to "production-grade":
+The demo uses THREE tools to tell the story ; from "I built this" to "production-grade":
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  Layer 1: Tiny-Agent (Ollama)    — local model, your code     │
-│  Layer 2: Tiny-Agent (Claude)    — cloud model, your code     │
-│  Layer 3: OpenCode (Ollama)   — local model, pro agent     │
+│  Layer 1: Tiny-Agent (Ollama)    — local model, your code   │
+│  Layer 2: Tiny-Agent (Claude)    — cloud model, your code   │
+│  Layer 3: OpenCode (Ollama)   — local model, pro agent      │
 └─────────────────────────────────────────────────────────────┘
 ```
 
